@@ -1,0 +1,13 @@
+- - - - - - - - - - - - - - - - - - - - -
+Fnv1a128 - https://github.com/3F/Fnv1a128
+- - - - - - - - - - - - - - - - - - - - -
+
+
+[1.0] 2021.??.??
+
+    * Initial public release.
+    
+      FNV-1a high-speed 128-bit implementation using LX4Cnh.
+      https://github.com/3F/LX4Cnh
+      https://github.com/3F/Fnv1a128
+     

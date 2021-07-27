@@ -1,0 +1,3 @@
+[submodule "src/ext/LX4Cnh"]
+	path = src/ext/LX4Cnh
+	url = https://github.com/3F/LX4Cnh.git
