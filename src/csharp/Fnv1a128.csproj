@@ -46,7 +46,7 @@
     <PackageProjectUrl>https://github.com/3F/Fnv1a128</PackageProjectUrl>
     <RepositoryUrl>https://github.com/3F/Fnv1a128</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>algorithm numbers bignumbers math multiplication calculation FNV1a128 dotnet speed opensource algorithms LodgeX4CorrNoHigh Fnv1a128</PackageTags>
+    <PackageTags>algorithm hashing numbers bignumbers math multiplication calculation FNV1a128 dotnet speed opensource algorithms LodgeX4CorrNoHigh Fnv1a128</PackageTags>
     <PackageReleaseNotes> changelog: https://github.com/3F/Fnv1a128/blob/master/changelog.txt </PackageReleaseNotes>
     <Authors>github.com/3F/Fnv1a128</Authors>
     <NeutralLanguage>en</NeutralLanguage>
@@ -83,12 +83,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\.tools\hMSBuild.bat" Pack="true" PackagePath="tools\" Visible="false" />
     <None Include="..\.tools\gnt.bat" Pack="true" PackagePath="tools\" Visible="false" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="..\ext\LX4Cnh\src\csharp\LX4Cnh.cs" />
+    <Compile Include="..\LX4Cnh\src\csharp\LX4Cnh.cs" />
   </ItemGroup>
 
 </Project>

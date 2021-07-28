@@ -1,12 +1,10 @@
-*FNV-1a* high-speed 「 128-bit 」 implementations;
+Non-cryptographic hash function. *FNV-1a*. High-speed 「 128-bit 」 implementations;
 
 ```r
 Copyright (c) 2021  Denis Kuzmin <x-3F@outlook.com> github/3F
 ```
 
-[ [ ☕ ] ](https://3F.github.io/Donation/) [![License](https://img.shields.io/badge/License-MIT-74A5C2.svg)](https://github.com/3F/Fnv1a128/blob/master/License.txt)
-
-✔ Free and Open. MIT License. *Fork! Star! Contribute! Share! Enjoy!*
+[ [ <sub>@</sub> ☕ ] ](https://3F.github.io/Donation/) &nbsp;&nbsp; [![License](https://img.shields.io/badge/License-MIT-74A5C2.svg)](https://github.com/3F/Fnv1a128/blob/master/License.txt)
 
 
 ## Where is this used?
@@ -15,7 +13,9 @@ Copyright (c) 2021  Denis Kuzmin <x-3F@outlook.com> github/3F
     * https://twitter.com/github3F/status/1419045735807467520
 
 
-## .NET implementation
+## .NET implementations
+
+✔ Free and Open. MIT License. *Fork! Star! Contribute! Share! Enjoy!*
 
 [![Build status](https://ci.appveyor.com/api/projects/status/b4xe42qq5vm0ga47/branch/master?svg=true)](https://ci.appveyor.com/project/3Fs/fnv1a128/branch/master)
 [![NuGet package](https://img.shields.io/nuget/v/Fnv1a128.svg)](https://www.nuget.org/packages/Fnv1a128/) 
@@ -47,4 +47,6 @@ For example, 120 Unicode (UTF-16) characters:
 > 128-bit hash value = 0x8e719ac9080952dec9c90a46279bfcc9
 
 [![](/img/benchmark.120Utf16.png)](https://twitter.com/github3F/status/1416518052770992132)
+
+*(1 ns == 0.000000001 sec)*
 
